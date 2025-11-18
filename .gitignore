@@ -1,0 +1,61 @@
+# .gitignore for .NET / Visual Studio projects
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
+coverage/
+
+# Resharper, DotCover
+_ReSharper*/
+*.DotSettings.user
+*.dotCover
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Rider / JetBrains user configs
+*.ipr
+*.iws
+*.iml
+
+# Misc
+*.user
+*.vsix
+
+# Ignore built binary files
+*.dll
+*.exe
+*.pdb
